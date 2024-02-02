@@ -60,7 +60,7 @@ export default function Chat() {
       console.log(messageData.sender);
       console.log(selectedUserId);
 
-      setMessages(prev=>([...prev,{...messageData}]));
+      setMessages(prev=>([...prev,{...messageData}])); 
       // if (messageData.sender === selectedUserId) {
       //   setMessages((prev) => [...prev, { ...messageData }]);
       // }
