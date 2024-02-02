@@ -282,7 +282,7 @@ export default function Chat() {
             )}
             {!!selectedUserId && (
               <div className="relative h-full ">
-                <div className="overflow-y-scroll absolute inset-0">
+                <div className="overflow-y-scroll absolute inset-0 mt-8">
                   {messagesWithoutDupes.map((message) => (
                     <div
                       key={message._id}
